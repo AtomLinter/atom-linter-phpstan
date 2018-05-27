@@ -1,93 +1,93 @@
 {
-    "name": "atom-linter-phpstan",
-    "main": "./lib/main",
-    "version": "0.0.0",
-    "description": "Lint PHP on the fly, using phpstan",
-    "keywords": [
-        "lint",
-        "linter",
-        "phpstan",
-        "php"
-    ],
-    "repository": "https://github.com/BradCrumb/atom-linter-phpstan",
-    "bugs": {
-        "url": "https://github.com/BradCrumb/atom-linter-phpstan/issues"
-    },
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.4.0 <2.0.0"
-    },
-    "package-deps": [
-        "linter"
-    ],
-    "providedServices": {
-        "linter": {
-            "versions": {
-                "1.0.0": "provideLinter"
-            }
-        }
-    },
-    "dependencies": {
-        "atom-linter": "^10.0.0",
-        "atom-package-deps": "^4.0.1"
-    },
-    "configSchema": {
-        "executablePath": {
-            "type": "string",
-            "default": "phpstan",
-            "description": "Enter the path to your phpstan executable.",
-            "order": 1
-        },
-        "autoExecutableSearch": {
-            "title": "Search for executables",
-            "type": "boolean",
-            "default": true,
-            "description": "Automatically search for `vendor/bin/phpstan` executable. Overrides the executable defined above.",
-            "order": 2
-        },
-        "configFile": {
-            "type": "string",
-            "default": "",
-            "description": "Path to project configuration file.",
-            "order": 3
-        },
-        "disableWhenNoConfigFile": {
-            "type": "boolean",
-            "default": false,
-            "description": "Disable the linter when the config file is not found.",
-            "order": 4
-        },
-        "autoConfigSearch": {
-            "title": "Search for config files",
-            "type": "boolean",
-            "default": true,
-            "description": "Automatically search for any `phpstan.neon` or `phpstan.neon.dist` file to use as config. Overrides custom config defined above.",
-            "order": 5
-        },
-        "autoloadFile": {
-            "type": "string",
-            "default": "",
-            "description": "Project's additional autoload file path",
-            "order": 6
-        },
-        "autoAutoloadSearch": {
-            "title": "Search for autoload files",
-            "type": "boolean",
-            "default": true,
-            "description": "Automatically search for a `vendor/autoload.php` file to use as autoload. Overrides custom config defined above.",
-            "order": 7
-        },
-        "level": {
-            "type": "string",
-            "default": "0",
-            "description": "Level of rule options - the higher the stricter",
-            "order": 8
-        },
-        "memoryLimit": {
-            "type": "string",
-            "default": "100M",
-            "description": "Memory limit for analysis",
-            "order": 9
-        }
+  "name": "atom-linter-phpstan",
+  "main": "./lib/main",
+  "version": "1.0.0",
+  "description": "Lint PHP on the fly, using phpstan",
+  "keywords": [
+    "lint",
+    "linter",
+    "phpstan",
+    "php"
+  ],
+  "repository": "https://github.com/BradCrumb/atom-linter-phpstan",
+  "bugs": {
+    "url": "https://github.com/BradCrumb/atom-linter-phpstan/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.4.0 <2.0.0"
+  },
+  "package-deps": [
+    "linter"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
     }
+  },
+  "dependencies": {
+    "atom-linter": "^10.0.0",
+    "atom-package-deps": "^4.0.1"
+  },
+  "configSchema": {
+    "executablePath": {
+      "type": "string",
+      "default": "phpstan",
+      "description": "Enter the path to your phpstan executable.",
+      "order": 1
+    },
+    "autoExecutableSearch": {
+      "title": "Search for executables",
+      "type": "boolean",
+      "default": true,
+      "description": "Automatically search for `vendor/bin/phpstan` executable. Overrides the executable defined above.",
+      "order": 2
+    },
+    "configFile": {
+      "type": "string",
+      "default": "",
+      "description": "Path to project configuration file.",
+      "order": 3
+    },
+    "disableWhenNoConfigFile": {
+      "type": "boolean",
+      "default": false,
+      "description": "Disable the linter when the config file is not found.",
+      "order": 4
+    },
+    "autoConfigSearch": {
+      "title": "Search for config files",
+      "type": "boolean",
+      "default": true,
+      "description": "Automatically search for any `phpstan.neon` or `phpstan.neon.dist` file to use as config. Overrides custom config defined above.",
+      "order": 5
+    },
+    "autoloadFile": {
+      "type": "string",
+      "default": "",
+      "description": "Project's additional autoload file path",
+      "order": 6
+    },
+    "autoAutoloadSearch": {
+      "title": "Search for autoload files",
+      "type": "boolean",
+      "default": true,
+      "description": "Automatically search for a `vendor/autoload.php` file to use as autoload. Overrides custom config defined above.",
+      "order": 7
+    },
+    "level": {
+      "type": "string",
+      "default": "0",
+      "description": "Level of rule options - the higher the stricter",
+      "order": 8
+    },
+    "memoryLimit": {
+      "type": "string",
+      "default": "100M",
+      "description": "Memory limit for analysis",
+      "order": 9
+    }
+  }
 }
