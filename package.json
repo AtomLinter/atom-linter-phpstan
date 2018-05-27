@@ -45,11 +45,49 @@
             "description": "Automatically search for `vendor/bin/phpstan` executable. Overrides the executable defined above.",
             "order": 2
         },
+        "configFile": {
+            "type": "string",
+            "default": "",
+            "description": "Path to project configuration file.",
+            "order": 3
+        },
+        "disableWhenNoConfigFile": {
+            "type": "boolean",
+            "default": false,
+            "description": "Disable the linter when the config file is not found.",
+            "order": 4
+        },
+        "autoConfigSearch": {
+            "title": "Search for config files",
+            "type": "boolean",
+            "default": true,
+            "description": "Automatically search for any `phpstan.neon` or `phpstan.neon.dist` file to use as config. Overrides custom config defined above.",
+            "order": 5
+        },
+        "autoloadFile": {
+            "type": "string",
+            "default": "",
+            "description": "Project's additional autoload file path",
+            "order": 6
+        },
+        "autoAutoloadSearch": {
+            "title": "Search for autoload files",
+            "type": "boolean",
+            "default": true,
+            "description": "Automatically search for a `vendor/autoload.php` file to use as autoload. Overrides custom config defined above.",
+            "order": 7
+        },
         "level": {
             "type": "string",
             "default": "0",
             "description": "Level of rule options - the higher the stricter",
-            "order": 3
+            "order": 8
+        },
+        "memoryLimit": {
+            "type": "string",
+            "default": "100M",
+            "description": "Memory limit for analysis",
+            "order": 9
         }
     }
 }
