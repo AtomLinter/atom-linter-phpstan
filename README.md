@@ -22,5 +22,5 @@ After verifying that `phpstan` works from your terminal, proceed to install the 
 
 ### Plugin installation
 ```ShellSession
-$ apm install apm-linter-phpstan
+$ apm install atom-linter-phpstan
 ```
