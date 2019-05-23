@@ -18,7 +18,7 @@ the simplified steps are:
 composer global require phpstan/phpstan
 ```
 
-After verifying that `phpstan` works from your terminal, proceed to install the atom-linter-phpstan plugin.
+After verifying that `phpstan` works from your terminal, proceed to install the linter-phpstan plugin.
 
 ### Plugin installation
 ```ShellSession
