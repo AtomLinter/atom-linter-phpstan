@@ -1,7 +1,7 @@
 linter-phpstan
 =========================
 
-This linter plugin for [Linter](https://github.com/AtomLinter/Linter) provides
+This Atom plugin for [Linter](https://github.com/AtomLinter/Linter) provides
 an interface to [PHPStan](https://github.com/phpstan/phpstan). It will be
 used with files that have the "PHP" syntax or PHP embedded within HTML.
 
