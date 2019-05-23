@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.0.3
+## v1.0.3 & v1.0.4
 - Take over package & rename for publishing
 - Fix bug with PHPstan execution
 
