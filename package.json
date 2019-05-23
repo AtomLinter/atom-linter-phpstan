@@ -1,5 +1,5 @@
 {
-  "name": "atom-linter-phpstan",
+  "name": "linter-phpstan",
   "main": "./lib/main",
   "version": "1.0.2",
   "description": "Lint PHP on the fly, using phpstan",
@@ -9,9 +9,9 @@
     "phpstan",
     "php"
   ],
-  "repository": "https://github.com/BradCrumb/atom-linter-phpstan",
+  "repository": "https://github.com/mallardduck/linter-phpstan",
   "bugs": {
-    "url": "https://github.com/BradCrumb/atom-linter-phpstan/issues"
+    "url": "https://github.com/mallardduck/linter-phpstan/issues"
   },
   "license": "MIT",
   "engines": {
