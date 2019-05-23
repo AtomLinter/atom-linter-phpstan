@@ -11,9 +11,9 @@ Before installing this plugin, you must ensure that `phpstan` is installed on yo
 system. For detailed instructions see [PHPStan Github](https://github.com/phpstan/phpstan),
 the simplified steps are:
 
-0. Install [php](http://php.net).
-0. Install [Composer](https://getcomposer.org/download/).
-0. Install `phpstan` by typing the following in a terminal:
+1. Install [php](http://php.net).
+2. Install [Composer](https://getcomposer.org/download/).
+3. Install `phpstan` by typing the following in a terminal:
 ```ShellSession
 composer global require phpstan/phpstan
 ```
