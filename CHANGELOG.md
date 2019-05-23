@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.5
+- Update ReadMe
+- Add explicit license.md file
+
 ## v1.0.3 & v1.0.4
 - Take over package & rename for publishing
 - Fix bug with PHPstan execution
