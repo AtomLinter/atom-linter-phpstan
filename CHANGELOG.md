@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.1.0
+- Update to support Linter API V2.
+
 ## v1.0.6
 - Fix the config option prefixes.
 
