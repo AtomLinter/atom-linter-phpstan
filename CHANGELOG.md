@@ -30,5 +30,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - #1: Fix for Level parameter
 
 ## v1.0.0
-
 - Initial release
+
+[unreleased]: https://github.com/AtomLinter/atom-linter-phpstan/compare/v2.0.1...HEAD
+[v2.0.1]: https://github.com/AtomLinter/atom-linter-phpstan/compare/v2.0.0...v2.0.1
+[v2.0.0]: https://github.com/AtomLinter/atom-linter-phpstan/compare/v1.0.2...v2.0.0
