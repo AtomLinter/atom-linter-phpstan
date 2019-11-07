@@ -9,9 +9,9 @@
     "phpstan",
     "php"
   ],
-  "repository": "https://github.com/BradCrumb/atom-linter-phpstan",
+  "repository": "https://github.com/AtomLinter/atom-linter-phpstan",
   "bugs": {
-    "url": "https://github.com/BradCrumb/atom-linter-phpstan/issues"
+    "url": "https://github.com/AtomLinter/atom-linter-phpstan"
   },
   "license": "MIT",
   "engines": {
