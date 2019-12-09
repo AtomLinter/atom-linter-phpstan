@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Fixed
+- Fix #11: Memory limit of -1 causing errors in cli arguments
+
+## [v2.1.0] - 2019-12-06
+### Fixed
 - Updated CHANGELOG.md to match current project state and releases.
 - Updated main.js to remove all PHPMD references.
 - Updated package.json to point to group repo.
