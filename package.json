@@ -88,6 +88,12 @@
       "default": "100M",
       "description": "Memory limit for analysis",
       "order": 9
+    },
+    "enableDebugMode": {
+      "type": "boolean",
+      "default": false,
+      "description": "Enable the debug mode for this linter package.",
+      "order": 10
     }
   }
 }
