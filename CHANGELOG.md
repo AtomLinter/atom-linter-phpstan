@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - A debug mode option to produce more verbose error output.
   - Related to the fix for #9 to provide a way to debug calls to phpstan.
+
+### Updated
+- Using newer version of atom-package-deps.
+
 ### Fixed
 - Fix for #9: Best fix we'll get without massive changes.
 
