@@ -1,7 +1,7 @@
 {
   "name": "atom-linter-phpstan",
   "main": "./lib/main",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Lint PHP on the fly, using phpstan",
   "keywords": [
     "lint",
@@ -18,7 +18,10 @@
     "atom": ">=1.4.0 <2.0.0"
   },
   "package-deps": [
-    { "name": "linter", "minimumVersion": "2.0.0" }
+    {
+      "name": "linter",
+      "minimumVersion": "2.0.0"
+    }
   ],
   "providedServices": {
     "linter": {
