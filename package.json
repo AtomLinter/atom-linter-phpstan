@@ -83,6 +83,13 @@
       "description": "Level of rule options - the higher the stricter",
       "order": 8
     },
+    "overrideConfigLevel": {
+      "title": "Override Level",
+      "type": "boolean",
+      "default": false,
+      "description": "When enabled this setting will override the level provided in the config.",
+      "order": 8
+    },
     "memoryLimit": {
       "type": "string",
       "default": "100M",
