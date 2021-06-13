@@ -6,14 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- A debug mode option to produce more verbose error output.
+- A new option for debug mode to produce more verbose error output.
   - Related to the fix for #9 to provide a way to debug calls to phpstan.
+- A new option for if Level should override the value in configs when used.
 
 ### Updated
 - Using newer version of atom-package-deps.
 
 ### Fixed
 - Fix for #9: Best fix we'll get without massive changes.
+- Fix for #14: Improves how level is used to prevent ignoring config file.
 
 ## [v2.1.1] - 2019-12-08
 ### Fixed
